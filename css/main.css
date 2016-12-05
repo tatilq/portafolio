@@ -1,1 +1,134 @@
 /* Tu CSS va aqui */
+*{
+    outline: 1px solid green;
+}
+.banner .hero .separador .ejemplo_user .pasos .uso .prueba_footer
+{
+    overflow: hidden;
+}
+hr
+{
+    width: 50px;
+}
+ header
+}
+{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #FA8072;
+}
+
+/*ESTE ES EL HEADER*/
+header{padding: 0;}
+header nav { text-align: center; }
+header nav ul { list-style-type: none; }
+header nav ul li { display: inline; }
+header nav ul li a { font-size: 10px; color: white;}
+header nav a:hover { text-decoration: none; }
+header nav .icon-bar{background: black;}
+#btn_menu
+{
+    background-color:transparent;
+    border:1px solid black;
+}
+/*ESTA ES LA SECCION DEL BANNER*/
+header
+{
+    background: url('../img/header.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+header .menu , .sub_menu{color: white;}
+header .sobre_mi
+{
+    background-color: #FF6347;
+    margin:0 -15px;
+    color: white;
+    padding: 20px 0px;
+}
+.sobre_mi hr
+{
+   
+    border-color: white;
+}
+
+.banner
+{
+outline: 2px solid red;
+
+}
+.banner hr
+{
+    border-color: red;
+
+}
+
+header .frase 
+{
+    margin: 0 auto;
+    padding:100px;
+    width: 70%;
+    color: white;
+}
+header .frase h2 
+{
+   
+    font-size: 40px;
+}
+
+/*ESTA ES SECCION DE SERVICIOS*/
+.servicios{
+    color: black;
+}
+.servicios p {
+    color: #a7a7a7;
+}
+.icon-container i{
+    font-size: 70px;
+    display: block;
+    padding: 30px 0 20px 0;
+    color: rgb(240,95,64);
+}
+.servicios h1
+{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.servicios h3
+{
+    
+    font-size: 20px;
+    width: 190px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.servicios p
+{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+/**/
+.imagen .col-md-4 
+{
+    padding:0px;
+}
+.icon-container
+{
+    font-size: 30px;
+    color: red;
+}
+
+
+/*esta e sl a seccion del github*/
+.git_hub
+{
+    padding: 20px 0px;
+    color: white;
+    background-color: #2D2829;
+}
+..git_hub button
+{
+   
+}

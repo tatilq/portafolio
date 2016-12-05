@@ -1,0 +1,11 @@
+@media screen and (max-width:1000px) {
+
+    header .frase h2
+    {
+        font-size: 30px;
+    }
+    header .frase 
+    {
+        width: 100%;
+    }
+}
