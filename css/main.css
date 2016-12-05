@@ -10,16 +10,26 @@ hr
 {
     width: 50px;
 }
- header
-}
+.banner hr , footer hr
 {
+    border-color: rgb(240,95,64);
+}
+button {
+    margin: 0 auto;
+   
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 12px 20px 10px 20px;
+    border: none;
+}
+/*ESTA ES LA SECCION DEL HEADER*/
+header{
+    padding: 0;
     box-sizing: border-box;
     overflow: hidden;
     background-color: #FA8072;
 }
-
-/*ESTE ES EL HEADER*/
-header{padding: 0;}
 header nav { text-align: center; }
 header nav ul { list-style-type: none; }
 header nav ul li { display: inline; }
@@ -31,7 +41,6 @@ header nav .icon-bar{background: black;}
     background-color:transparent;
     border:1px solid black;
 }
-/*ESTA ES LA SECCION DEL BANNER*/
 header
 {
     background: url('../img/header.jpg');
@@ -40,6 +49,11 @@ header
     background-attachment: fixed;
     background-size: cover;  
 }
+.logo
+{
+    line-height: 17px;
+    font-weight: bold;
+}
 header .menu , .sub_menu{color: white;}
 header .sobre_mi
 {
@@ -47,22 +61,6 @@ header .sobre_mi
     margin:0 -15px;
     color: white;
     padding: 20px 0px;
-}
-.sobre_mi hr
-{
-   
-    border-color: white;
-}
-
-.banner
-{
-outline: 2px solid red;
-
-}
-.banner hr
-{
-    border-color: red;
-
 }
 
 header .frase 
@@ -74,16 +72,29 @@ header .frase
 }
 header .frase h2 
 {
-   
     font-size: 40px;
+}
+/*ESTA ES LA SECCION DEL BANNER*/
+.banner
+{
+outline: 2px solid red;
+
+}
+
+.banner button
+{
+     background: rgb(240,95,64);
+}
+/*ESTA ES LA SECCION SOBRE MI*/
+.sobre_mi hr
+{
+   
+    border-color: white;
 }
 
 /*ESTA ES SECCION DE SERVICIOS*/
 .servicios{
     color: black;
-}
-.servicios p {
-    color: #a7a7a7;
 }
 .icon-container i{
     font-size: 70px;
@@ -104,31 +115,30 @@ header .frase h2
     margin: 0 auto;
     margin-bottom: 20px;
 }
-.servicios p
-{
-    margin-left: 45px;
+.servicios p {
+    color: #a7a7a7;
+     margin-left: 45px;
     margin-right: 45px;
 }
-/**/
+/*ESTA E SLA SECCION DE IMAGENES*/
 .imagen .col-md-4 
 {
     padding:0px;
 }
-.icon-container
-{
-    font-size: 30px;
-    color: red;
-}
-
-
-/*esta e sl a seccion del github*/
 .git_hub
 {
     padding: 20px 0px;
     color: white;
     background-color: #2D2829;
 }
-..git_hub button
+.git_hub button
 {
-   
+   background-color: white;
+   color: black;
+}
+/*ESTA  ES LA SECCION DEL FOOTER*/
+
+footer .icon_footer
+{
+    font-size: 25px;
 }

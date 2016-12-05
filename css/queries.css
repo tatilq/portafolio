@@ -1,5 +1,18 @@
 @media screen and (max-width:1000px) {
-
+	
+	.menu
+	{
+		background-color: white;
+		
+	}
+	.logo
+	{
+		color: rgb(240,95,64);
+		font-size: 20px;
+		text-align: center;
+	}
+	header nav ul li a {  color: rgb(240,95,64);
+}
     header .frase h2
     {
         font-size: 30px;
@@ -7,5 +20,6 @@
     header .frase 
     {
         width: 100%;
+        padding: 50px;
     }
 }
