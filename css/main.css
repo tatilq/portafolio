@@ -4,18 +4,13 @@
     font-family: 'Aref Ruqaa', serif;
     
 }
+/*CLASES GENERALES*/
 .banner .hero .separador .ejemplo_user .pasos .uso .prueba_footer
 {
     overflow: hidden;
 }
-hr
-{
-    width: 50px;
-}
-footer hr
-{
-    border-color:   #DC143C;
-}
+hr{width: 50px;}
+footer hr{ border-color:   #DC143C;}
 button {
     margin: 0 auto;
     border-radius: 30px;
@@ -29,11 +24,13 @@ header{
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    background: url('../img/header.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
 }
-.degradado
-{
-    background-color: rgba( 178,34,34,0.4);
-}
+
 header nav { text-align: center; }
 header nav ul { list-style-type: none; }
 header nav ul li { display: inline; }
@@ -45,14 +42,11 @@ header nav .icon-bar{background: black;}
     background-color:rgba(220,20,60,0.3);
     border:1px solid black;
 }
-header
+.degradado
 {
-    background: url('../img/header.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;  
+    background-color: rgba( 178,34,34,0.4);
 }
+
 .logo
 {
     line-height: 17px;
@@ -98,6 +92,7 @@ header .frase h2
 /*ESTA ES SECCION DE SERVICIOS*/
 .servicios{
     color: black;
+    padding: 50px 0;
 }
 .icon-container i{
     font-size: 70px;
@@ -124,14 +119,40 @@ header .frase h2
     margin-right: 45px;
 }
 /*ESTA E SLA SECCION DE IMAGENES*/
-.imagen .col-md-4 
-{
-    padding:0px;
+
+.fotos .col-md-4 {
+    padding: 0;
 }
-.fondo
-{
-    background-color: rgba( 255,127,80,0.7);
+.img {
+    position: relative;
 }
+.image {
+    min-width: 100%;
+    z-index: -1;
+}
+
+.categoria {
+    background: rgba(240,95,64,0.8);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.categoria p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    margin-top: -21px;
+    display: none;
+}
+.categoria-dos {
+    height: 80%;
+}
+/*------------------------------------------*/
+
 .git_hub
 {
     padding: 50px 0px;
