@@ -1,17 +1,13 @@
 @media screen and (max-width:1000px) {
 	
-	.menu
-	{
-		background-color: white;
-		
-	}
+	
 	.logo
 	{
-		color: rgb(240,95,64);
+		color:#DC143C;
 		font-size: 20px;
 		text-align: center;
 	}
-	header nav ul li a {  color: rgb(240,95,64);
+	header nav ul li a { font-size:15px;
 }
     header .frase h2
     {

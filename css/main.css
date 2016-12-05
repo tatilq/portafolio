@@ -1,6 +1,8 @@
 /* Tu CSS va aqui */
-*{
-    outline: 1px solid green;
+*
+{
+    font-family: 'Aref Ruqaa', serif;
+    
 }
 .banner .hero .separador .ejemplo_user .pasos .uso .prueba_footer
 {
@@ -12,11 +14,10 @@ hr
 }
 .banner hr , footer hr
 {
-    border-color: rgb(240,95,64);
+    border-color:   #DC143C;
 }
 button {
     margin: 0 auto;
-   
     border-radius: 30px;
     font-size: 13px;
     font-weight: bold;
@@ -28,7 +29,10 @@ header{
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
-    background-color: #FA8072;
+}
+.degradado
+{
+    background-color: rgba( 178,34,34,0.4);
 }
 header nav { text-align: center; }
 header nav ul { list-style-type: none; }
@@ -38,7 +42,7 @@ header nav a:hover { text-decoration: none; }
 header nav .icon-bar{background: black;}
 #btn_menu
 {
-    background-color:transparent;
+    background-color:rgba(220,20,60,0.3);
     border:1px solid black;
 }
 header
@@ -52,12 +56,12 @@ header
 .logo
 {
     line-height: 17px;
-    font-weight: bold;
+     font-weight: bolder;
 }
 header .menu , .sub_menu{color: white;}
 header .sobre_mi
 {
-    background-color: #FF6347;
+    background-color:rgba(220,20,60,0.8);
     margin:0 -15px;
     color: white;
     padding: 20px 0px;
@@ -75,21 +79,20 @@ header .frase h2
     font-size: 40px;
 }
 /*ESTA ES LA SECCION DEL BANNER*/
-.banner
-{
-outline: 2px solid red;
-
-}
-
 .banner button
 {
-     background: rgb(240,95,64);
+    background: rgba(139,0,0,0.4);
+    border:2px solid black;
+}
+.banner button a
+{
+    color: white;
+    text-decoration:none;
 }
 /*ESTA ES LA SECCION SOBRE MI*/
 .sobre_mi hr
 {
-   
-    border-color: white;
+    border-color: rgb(220,20,60);
 }
 
 /*ESTA ES SECCION DE SERVICIOS*/
@@ -125,20 +128,39 @@ outline: 2px solid red;
 {
     padding:0px;
 }
+.fondo
+{
+    background-color: rgba( 255,127,80,0.7);
+}
 .git_hub
 {
-    padding: 20px 0px;
+    padding: 50px 0px;
     color: white;
-    background-color: #2D2829;
+    background-color:#DC143C;
 }
 .git_hub button
 {
-   background-color: white;
-   color: black;
+   
+   background: rgba(139,0,0,0.4);
+   
+   border:2px solid black;
 }
-/*ESTA  ES LA SECCION DEL FOOTER*/
+.git_hub button a{
+color: white;
+text-decoration:none;
+}
 
+/*ESTA  ES LA SECCION DEL FOOTER*/
+footer
+{
+    padding: 50px 0;
+}
 footer .icon_footer
 {
-    font-size: 25px;
+    font-size: 40px;
+    color: rgb(240,95,64);
+}
+footer .correo
+{
+    color: rgb(240,95,64);
 }
